@@ -8,59 +8,57 @@
 </p>
 
 <p align="center">
-  <img src="assets/app-icon/hicolor/256x256/apps/ai.storyteller.photocraft.png" width="128" height="128" alt="PhotoCraft icon: an engraved nine-tailed fox on a blue tile">
+  <img src="assets/app-icon/hicolor/256x256/apps/ai.storyteller.photocraft.png" width="128" height="128" alt="PhotoCraft 图标：蓝色方砖上的九尾狐浮雕">
 </p>
 
 <h1 align="center">PhotoCraft</h1>
 
 <p align="center">
-  <b>Image editing; an open-source, clean-room reimplementation of Adobe Photoshop, rebuilt in pure Rust.</b><br>
-  Layers, masks, adjustment layers, layer styles, type, vectors, brushes and real PSD files,<br>
-  in a native app written entirely in Rust. Open source, offline, and yours.
+  <b>图像编辑软件：以纯 Rust 从零实现，通过净室方式重新实现 Adobe Photoshop 的功能，完全开源。</b><br>
+  支持图层、蒙版、调整图层、图层样式、文字、矢量、画笔，以及真正的 PSD 文件，<br>
+  全部集成在纯 Rust 编写的原生应用中。开源、离线运行，由你掌控。
 </p>
 
 <p align="center">
   <img alt="100% Rust" src="https://img.shields.io/badge/100%25-Rust-b7410e?style=flat-square&logo=rust">
   <img alt="macOS · Windows · Linux · FreeBSD · Web" src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows%20%C2%B7%20Linux%20%C2%B7%20FreeBSD%20%C2%B7%20Web-native-2f7bf5?style=flat-square">
-  <img alt="License: MIT OR Apache-2.0" src="https://img.shields.io/badge/license-MIT%20%2F%20Apache--2.0-3a3a3a?style=flat-square">
-  <img alt="Status: early alpha" src="https://img.shields.io/badge/status-early%20alpha-d69e2e?style=flat-square">
+  <img alt="许可证：MIT 或 Apache-2.0" src="https://img.shields.io/badge/license-MIT%20%2F%20Apache--2.0-3a3a3a?style=flat-square">
+  <img alt="状态：早期 Alpha 测试版" src="https://img.shields.io/badge/status-early%20alpha-d69e2e?style=flat-square">
   <br>
-  <a href="https://sonarcloud.io/project/overview?id=storytold_photocraft"><img alt="Scanned by SonarCloud" src="https://img.shields.io/badge/Scanned_by-SonarCloud-4b9fd5?style=flat-square&logo=sonarqubecloud&logoColor=white"></a>
-  <a href="https://coderabbit.ai"><img alt="Reviewed by CodeRabbit" src="https://img.shields.io/coderabbit/prs/github/storytold/photocraft?style=flat-square&label=Reviewed%20by%20CodeRabbit&logo=coderabbit"></a>
+  <a href="https://sonarcloud.io/project/overview?id=storytold_photocraft"><img alt="由 SonarCloud 扫描" src="https://img.shields.io/badge/Scanned_by-SonarCloud-4b9fd5?style=flat-square&logo=sonarqubecloud&logoColor=white"></a>
+  <a href="https://coderabbit.ai"><img alt="由 CodeRabbit 审查" src="https://img.shields.io/coderabbit/prs/github/storytold/photocraft?style=flat-square&label=Reviewed%20by%20CodeRabbit&logo=coderabbit"></a>
 </p>
 
 <p align="center">
-  <a href="https://discord.gg/artcraft"><img alt="Join the ArtCraft community on Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
+  <a href="https://discord.gg/artcraft"><img alt="加入 Discord 上的 ArtCraft 社区" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 </p>
 
 <p align="center">
-  <a href="https://getartcraft.com/apps/photocraft"><b>PhotoCraft on getartcraft.com</b></a> ·
+  <a href="https://getartcraft.com/apps/photocraft"><b>访问 PhotoCraft 产品主页</b></a> ·
   <a href="https://getartcraft.com/">ArtCraft</a> ·
-  <a href="https://getartcraft.com/apps">All Crafting Apps</a>
+  <a href="https://getartcraft.com/apps">所有创作应用</a>
 </p>
 
 <br>
 
 <p align="center">
-  <img src="docs/images/photocraft-demo.jpg" alt="PhotoCraft editing Hokusai's The Great Wave: a caption card with a drop shadow, Title and Credit type layers, Vibrance and Curves adjustment layers, and the Curves editor drawn over the image's histogram" width="100%">
+  <img src="docs/images/photocraft-demo.jpg" alt="PhotoCraft 编辑《神奈川冲浪里》：带投影的说明卡片、标题和署名文字图层、自然饱和度与曲线调整，以及覆盖直方图的曲线编辑器" width="100%">
   <br>
-  <sub>A caption card with a drop shadow, live type, and Vibrance and Curves adjustment layers, with the Curves editor open.<br>
-  <i>The Great Wave off Kanagawa</i>, Katsushika Hokusai, c. 1831</sub>
+  <sub>带投影的说明卡片、可编辑文字及自然饱和度和曲线调整图层，曲线编辑器处于打开状态。<br><i>神奈川冲浪里</i>，葛饰北斋，约 1831 年</sub>
 </p>
 
 > [!NOTE]
-> **ArtCraft is a community of artists from all walks of life.** Digital, generative, music,
-> games &mdash; if you make things, you're one of us. **[Come say hi on Discord](https://discord.gg/artcraft).**
+> **ArtCraft 是汇聚各领域艺术家的社区。**数字艺术、生成式创作、音乐、游戏——只要你在创造，你就是我们的一员。**[来 Discord 打个招呼吧](https://discord.gg/artcraft)。**
 
 <p align="center">
-  <a href="#features">Features</a> ·
-  <a href="#everything-in-the-box">Everything in the box</a> ·
+  <a href="#features">功能亮点</a> ·
+  <a href="#everything-in-the-box">完整功能</a> ·
   <a href="#psd-without-compromise">PSD</a> ·
-  <a href="#built-for-agents">Agents</a> ·
-  <a href="#under-the-hood">Under the hood</a> ·
-  <a href="#get-started">Get started</a> ·
-  <a href="#downloads">Downloads</a> ·
-  <a href="#the-crafting-apps">Crafting Apps</a> ·
+  <a href="#built-for-agents">智能体</a> ·
+  <a href="#under-the-hood">技术架构</a> ·
+  <a href="#get-started">快速开始</a> ·
+  <a href="#downloads">下载</a> ·
+  <a href="#the-crafting-apps">创作工具系列</a> ·
   <a href="https://discord.gg/artcraft">Discord</a>
 </p>
 
@@ -69,228 +67,240 @@
 <table>
   <tr>
     <td width="25%" valign="top">
-      <h3>🎛️ Familiar by design</h3>
-      The menus, shortcuts, panels and tools are where your hands expect them, from ⌘J to ⇧⌘D. If you know Photoshop, you already know PhotoCraft.
+      <h3>🎛️ 熟悉的操作体验</h3>
+      菜单、快捷键、面板和工具都位于你熟悉的位置，从 ⌘J 到 ⇧⌘D。如果你熟悉 Photoshop，就能迅速上手 PhotoCraft。
     </td>
     <td width="25%" valign="top">
-      <h3>⚡ Native and fast</h3>
-      A GPU compositor on wgpu (Metal, Vulkan, DX12, WebGPU), copy-on-write tiles and multithreaded filters. No Electron, no web view, no waiting.
+      <h3>⚡ 原生且高效</h3>
+      基于 wgpu 的 GPU 合成器，支持 Metal、Vulkan、DX12 和 WebGPU；搭配写时复制图块及多线程滤镜。没有 Electron，没有内嵌网页视图，响应迅速。
     </td>
     <td width="25%" valign="top">
-      <h3>🗂️ Real PSD files</h3>
-      Open, edit and save layered Photoshop documents. Re-saving keeps the render of 307 of the 309 psd-tools test files.
+      <h3>🗂️ 真正的 PSD 文件</h3>
+      打开、编辑并保存分层 Photoshop 文档。在 psd-tools 的 309 个测试文件中，307 个文件重新保存后仍保持相同的渲染结果。
     </td>
     <td width="25%" valign="top">
-      <h3>🤖 Agent-ready</h3>
-      Every action is a command, so you can drive the same engine from the UI, the CLI, a JSON control channel or an MCP server.
+      <h3>🤖 支持智能体操作</h3>
+      每项操作都是命令，因此可以通过界面、命令行、JSON 控制通道或 MCP 服务器驱动同一个引擎。
     </td>
   </tr>
 </table>
 
 <br>
 
-## Features
+<a id="features"></a>
 
-Every screenshot here is the real app at work on public-domain art, rendered offscreen through its control channel.
+## 功能亮点
+
+此处每张截图均来自真实应用：使用公有领域艺术作品，通过控制通道进行离屏渲染。
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="docs/images/photocraft-adjustments.jpg" alt="Monet's Impression, Sunrise with Levels and Vibrance adjustment layers; the Levels editor and the Histogram panel with mean, standard deviation and median are open on the right" width="100%">
+      <img src="docs/images/photocraft-adjustments.jpg" alt="《日出·印象》与色阶、自然饱和度调整图层，右侧打开色阶编辑器及显示均值、标准差和中位数的直方图面板" width="100%">
       <br>
-      <sub>Levels and Vibrance adjustment layers, with the live Histogram panel.<br><i>Impression, Sunrise</i>, Claude Monet, 1872</sub>
-      <h3>Edit without regret</h3>
-      Adjustment layers keep every edit live. Stack Levels, Curves, Vibrance, Hue/Saturation and a dozen more, mask them to an area, reorder them, or turn them off, and your original pixels never change.
+      <sub>色阶和自然饱和度调整图层，以及实时直方图面板。<br><i>日出·印象</i>，克洛德·莫奈，1872 年</sub>
+      <h3>随时调整，无损编辑</h3>
+      调整图层让每次修改都保持可编辑。叠加色阶、曲线、自然饱和度、色相/饱和度等十余种调整，使用蒙版限定区域、改变顺序或关闭效果，原始像素始终保持不变。
       <br><br>
-      <b>16 adjustment layers</b> that also apply directly to pixels, including Curves with per-channel editing, Levels with a live histogram, Black &amp; White, Channel Mixer, Gradient Map, Photo Filter, Selective Color and Color Lookup (.cube, .3dl, .look). Plus Shadows/Highlights, Replace Color, Match Color, HDR Toning, Desaturate and Equalize.
+      <b>16 种调整图层</b>，也可直接作用于像素，包括支持分通道编辑的曲线、带实时直方图的色阶、黑白、通道混合器、渐变映射、照片滤镜、可选颜色及颜色查找（.cube、.3dl、.look）。还提供阴影/高光、替换颜色、匹配颜色、HDR 色调、去色和色调均化。
     </td>
     <td width="50%" valign="top">
-      <img src="docs/images/photocraft-layer-styles.jpg" alt="The Layer Style dialog editing an Outer Glow on the EARTHRISE type layer, with Stroke also enabled, over the Apollo 8 Earthrise photograph" width="100%">
+      <img src="docs/images/photocraft-layer-styles.jpg" alt="《地出》照片上的 EARTHRISE 文字图层正在编辑外发光，同时启用描边" width="100%">
       <br>
-      <sub>Outer Glow and Stroke on a live type layer, in the Layer Style dialog.<br><i>Earthrise</i>, William Anders / NASA, 1968</sub>
-      <h3>Styles that sell the shot</h3>
-      Drop Shadow, Inner Shadow, Outer and Inner Glow, Bevel &amp; Emboss, Satin, Stroke, and Color, Gradient and Pattern Overlay, live on any layer, including type. Patterns come from a library (built-ins, Edit › Define Pattern, <code>.pat</code> import/export) and PSD <code>Patt</code> blocks.
+      <sub>在图层样式对话框中为可编辑文字添加外发光和描边。<br><i>地出</i>，威廉·安德斯 / NASA，1968 年</sub>
+      <h3>让画面更出彩的样式</h3>
+      投影、内阴影、外发光、内发光、斜面和浮雕、光泽、描边，以及颜色、渐变和图案叠加，都可实时应用于任意图层，包括文字。图案来自图案库（内置图案、“编辑 › 定义图案”、<code>.pat</code> 导入/导出）以及 PSD 的 <code>Patt</code> 数据块。
       <br><br>
-      Copy and paste styles between layers, hide all effects at once, and open styles straight from your PSDs, rendered to match Photoshop.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="docs/images/photocraft-masks.jpg" alt="Vermeer's Girl with a Pearl Earring: an elliptical selection around the face, and a Hue/Saturation layer with an elliptical mask that turns everything outside the face gray" width="100%">
-      <br>
-      <sub>An elliptical selection becomes the mask of a Hue/Saturation layer, so only the face keeps its color.<br><i>Girl with a Pearl Earring</i>, Johannes Vermeer, c. 1665</sub>
-      <h3>Selections that understand your image</h3>
-      Marquees, lassos and the Magic Wand for precision; Quick Selection, Object Selection and Select Subject when you want the computer to do the tracing; Select and Mask to refine hair-fine edges.
-      <br><br>
-      Feather, expand, contract, smooth, grow, reselect. Turn any selection into a layer mask, a vector path or a shape. Smart selection runs on your machine, with no cloud and no account.
-    </td>
-    <td width="50%" valign="top">
-      <img src="docs/images/photocraft-type.jpg" alt="Bierstadt's Among the Sierra Nevada with the headline SIERRA NEVADA being edited on the canvas in Georgia, a byline, and a paragraph caption; the Character and Paragraph controls are open" width="100%">
-      <br>
-      <sub>A headline edited in place, with a byline and a paragraph of body text.<br><i>Among the Sierra Nevada, California</i>, Albert Bierstadt, 1868</sub>
-      <h3>Type that sets beautifully</h3>
-      Point and paragraph text, edited right on the canvas, with full Character and Paragraph controls: font, weight, size, leading, tracking, alignment and colour. The <a href="docs/color-picker.md">full Type Color Picker</a> also supports screen sampling with a pixel loupe.
-      <br><br>
-      Type layers stay editable, take layer styles, and round-trip through PSD.
+      可在图层之间复制粘贴样式，一次隐藏全部效果，也能直接读取 PSD 中的样式，并以匹配 Photoshop 的方式渲染。
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="docs/images/photocraft-vector.jpg" alt="A lotus badge built from shape layers (Lotus, Water, Sun, Badge and Dotted Ring) over Monet's Water Lilies, with the lotus path's anchor points selected" width="100%">
+      <img src="docs/images/photocraft-masks.jpg" alt="《戴珍珠耳环的少女》面部周围的椭圆选区，以及让面部以外区域变灰的色相/饱和度图层蒙版" width="100%">
       <br>
-      <sub>A badge made of shape layers: a gradient-filled lotus, a star and a dotted ring.<br><i>Water Lilies</i>, Claude Monet, 1906</sub>
-      <h3>Pixel-perfect vectors</h3>
-      Rectangle, Ellipse, Triangle, Polygon, Line and the Pen, Freeform Pen and Curvature Pen tools, with resolution-independent shape layers, gradient fills, and dashed, aligned strokes.
+      <sub>椭圆选区转换为色相/饱和度图层的蒙版，让只有面部保留颜色。<br><i>戴珍珠耳环的少女</i>，约翰内斯·维米尔，约 1665 年</sub>
+      <h3>理解图像的选区工具</h3>
+      使用选框、套索和魔棒精确选择；使用快速选择、对象选择及选择主体让电脑自动勾选；使用“选择并遮住”细化发丝级边缘。
       <br><br>
-      Combine shapes (unite, subtract, intersect, exclude), keep paths in the Paths panel, use them as vector masks, or stroke and fill them. 116 of 116 shape layers in our PSD corpus match Photoshop's pixels.
+      支持羽化、扩展、收缩、平滑、扩大选取和重新选择。任何选区都可转换为图层蒙版、矢量路径或形状。智能选择在本机运行，无需云端或账号。
     </td>
     <td width="50%" valign="top">
-      <img src="docs/images/photocraft-filters.jpg" alt="The Twirl filter dialog at a 320 degree angle, previewing live inside an elliptical selection on Van Gogh's The Starry Night" width="100%">
+      <img src="docs/images/photocraft-type.jpg" alt="《加利福尼亚内华达山脉之间》上的 Georgia 字体标题、署名及段落文字，字符与段落控件已打开" width="100%">
       <br>
-      <sub>Twirl previews live on the canvas, only inside the selection.<br><i>The Starry Night</i>, Vincent van Gogh, 1889</sub>
-      <h3>See it before you commit</h3>
-      Every filter dialog previews live on the canvas, through your selection. Blurs (Gaussian, Box, Motion, Radial, Surface, Smart, Lens, Shape, and the Blur Gallery: Tilt-Shift, Iris, Field, Spin, Path), sharpening, Reduce Noise, distortions (Twirl, Wave, Ripple, Displace, Shear, Zig Zag…), Pixelate, Stylize (Oil Paint, Wind, Extrude…), Render (Clouds, Fibers, Lens Flare, Lighting Effects) and more.
+      <sub>在画布中直接编辑标题，同时排版署名和正文段落。<br><i>加利福尼亚内华达山脉之间</i>，阿尔伯特·比尔施塔特，1868 年</sub>
+      <h3>精美的文字排版</h3>
+      直接在画布上编辑点文字和段落文字，完整支持字符与段落设置：字体、字重、字号、行距、字距、对齐和颜色。<a href="docs/color-picker.md">完整的文字拾色器</a>还支持带像素放大镜的屏幕取色。
       <br><br>
-      Run filters on a smart object and they stay editable: change, hide, reorder or mask them at any time.
-      <br><br>
-      Large-radius blurs use running-sum box passes across all cores: a radius-180 Gaussian on 3.6 MP takes under a second.
+      文字图层保持可编辑，支持图层样式，并可通过 PSD 格式保存后再次读取。
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="docs/images/photocraft-transform.jpg" alt="Free Transform handles around a rotated copy of Ansel Adams' The Tetons and the Snake River, with the History panel listing Open, Duplicate Layer, Free Transform and other steps" width="100%">
+      <img src="docs/images/photocraft-vector.jpg" alt="《睡莲》上的莲花、水、太阳、徽章和点状圆环形状图层，莲花路径锚点已选中" width="100%">
       <br>
-      <sub>Free Transform on a rotated print, with every step listed in History.<br><i>The Tetons and the Snake River</i>, Ansel Adams, 1942</sub>
-      <h3>Shape it any way you like</h3>
-      Free Transform with scale, rotate, skew, distort and perspective; exact 90° and 180° rotations and flips; Transform Again. Layers, type, shapes, masks and selections all transform together.
+      <sub>由形状图层组成的徽章：渐变填充的莲花、星形和点状圆环。<br><i>睡莲</i>，克洛德·莫奈，1906 年</sub>
+      <h3>像素级精准的矢量图形</h3>
+      支持矩形、椭圆、三角形、多边形、直线，以及钢笔、自由钢笔和弯度钢笔工具；形状图层不受分辨率限制，支持渐变填充、虚线及描边对齐。
       <br><br>
-      Full history, Toggle Last State and the History Brush mean every step can be undone, even one brush stroke at a time.
+      组合形状（联合、减去、相交、排除），在路径面板中保存路径，将其用作矢量蒙版，或对路径描边和填充。PSD 样本库中的 116 个形状图层全部达到与 Photoshop 像素一致的效果。
     </td>
     <td width="50%" valign="top">
-      <img src="docs/images/photocraft-export-light.jpg" alt="The Export As dialog in the light theme over Klimt's The Kiss: JPG at quality 90, scaled to 50 percent, with a preview and an estimated size of about 684K" width="100%">
+      <img src="docs/images/photocraft-filters.jpg" alt="《星月夜》椭圆选区内实时预览角度 320 度的旋转扭曲滤镜" width="100%">
       <br>
-      <sub>Export As in the light theme, with a preview and a file-size estimate.<br><i>The Kiss</i>, Gustav Klimt, 1907–1908</sub>
-      <h3>Ship it anywhere</h3>
-      Export As with format, quality, transparency and scale, plus a preview and an instant file-size estimate. Quick Export to PNG in one click.
+      <sub>旋转扭曲滤镜仅在选区内实时预览。<br><i>星月夜</i>，文森特·梵高，1889 年</sub>
+      <h3>应用之前，实时预览</h3>
+      每个滤镜对话框都会在画布上实时预览，并遵循当前选区。包括模糊（高斯、方框、动感、径向、表面、智能、镜头、形状，以及模糊画廊中的移轴、光圈、场景、旋转和路径模糊）、锐化、减少杂色、扭曲（旋转扭曲、波浪、波纹、置换、切变、水波等）、像素化、风格化（油画、风、凸出等）、渲染（云彩、纤维、镜头光晕、光照效果）等。
       <br><br>
-      Choose a dark Pro theme, the airy Studio themes, or a Classic look.
+      在智能对象上应用滤镜后仍可随时编辑：修改、隐藏、重新排序或添加蒙版。
+      <br><br>
+      大半径模糊通过运行和算法的方框滤波遍历利用所有核心：对 360 万像素图像应用半径 180 的高斯模糊，耗时不到一秒。
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="docs/images/photocraft-transform.jpg" alt="《提顿山与蛇河》旋转副本周围的自由变换控制柄，历史面板显示打开、复制图层及自由变换等操作" width="100%">
+      <br>
+      <sub>对旋转的照片进行自由变换，历史记录列出每一步操作。<br><i>提顿山与蛇河</i>，安塞尔·亚当斯，1942 年</sub>
+      <h3>自由变换，随心塑形</h3>
+      自由变换支持缩放、旋转、斜切、扭曲和透视，以及精确的 90°、180° 旋转、翻转和再次变换。图层、文字、形状、蒙版及选区可一起变换。
+      <br><br>
+      完整历史记录、“切换上一个状态”和历史记录画笔让每一步都能撤销，甚至可以逐笔撤销。
+    </td>
+    <td width="50%" valign="top">
+      <img src="docs/images/photocraft-export-light.jpg" alt="《吻》上方的浅色主题导出对话框：JPG 质量 90、缩放 50%，提供预览及约 684K 文件大小估算" width="100%">
+      <br>
+      <sub>浅色主题下的“导出为”对话框，包含预览与文件大小估算。<br><i>吻</i>，古斯塔夫·克里姆特，1907–1908 年</sub>
+      <h3>轻松导出，随处使用</h3>
+      “导出为”支持格式、质量、透明度和缩放设置，同时提供预览及即时文件大小估算。也可一键快速导出 PNG。
+      <br><br>
+      可选深色 Pro 主题、清爽的 Studio 主题或 Classic 经典外观。
     </td>
   </tr>
 </table>
 
 <br>
 
-## Everything in the box
+<a id="everything-in-the-box"></a>
+
+## 完整功能
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h4>🧰 69 tools</h4>
-      Move · Artboard · Rectangular and Elliptical Marquee · Single Row Marquee · Single Column Marquee · Lasso · Polygonal Lasso · Magnetic Lasso · Object Selection · Quick Selection · Magic Wand · Crop · Perspective Crop · Slice · Slice Select · Frame · Eyedropper · Color Sampler · Ruler · Note · Count · Remove · Spot Healing Brush · Healing Brush · Patch · Content-Aware Move · Red Eye · Brush · Pencil · Mixer Brush · Color Replacement · Clone Stamp · Pattern Stamp · History Brush · Art History Brush · Eraser · Background Eraser · Magic Eraser · Gradient · Paint Bucket · Blur · Sharpen · Smudge · Dodge · Burn · Sponge · Pen · Freeform Pen · Curvature Pen · Add Anchor Point · Delete Anchor Point · Convert Point · Horizontal and Vertical Type · Horizontal and Vertical Type Mask · Path Selection · Direct Selection · Rectangle · Ellipse · Triangle · Polygon · Star · Line · Custom Shape · Hand · Rotate View · Zoom
+      <h4>🧰 69 种工具</h4>
+      移动 · 画板 · 矩形和椭圆选框 · 单行选框 · 单列选框 · 套索 · 多边形套索 · 磁性套索 · 对象选择 · 快速选择 · 魔棒 · 裁剪 · 透视裁剪 · 切片 · 切片选择 · 图框 · 吸管 · 颜色取样器 · 标尺 · 注释 · 计数 · 移除 · 污点修复画笔 · 修复画笔 · 修补 · 内容识别移动 · 红眼 · 画笔 · 铅笔 · 混合器画笔 · 颜色替换 · 仿制图章 · 图案图章 · 历史记录画笔 · 历史记录艺术画笔 · 橡皮擦 · 背景橡皮擦 · 魔术橡皮擦 · 渐变 · 油漆桶 · 模糊 · 锐化 · 涂抹 · 减淡 · 加深 · 海绵 · 钢笔 · 自由钢笔 · 弯度钢笔 · 添加锚点 · 删除锚点 · 转换点 · 横排和直排文字 · 横排和直排文字蒙版 · 路径选择 · 直接选择 · 矩形 · 椭圆 · 三角形 · 多边形 · 星形 · 直线 · 自定形状 · 抓手 · 旋转视图 · 缩放
     </td>
     <td width="33%" valign="top">
-      <h4>🖌️ A real brush engine</h4>
-      Shape Dynamics, Scattering, Texture, Dual Brush, Color Dynamics, Transfer, Brush Pose, Wet Edges, Build-up and Smoothing (including Pulled String), driven by pen pressure, tilt, rotation and direction. Brush presets, Define Brush from Selection, and deterministic, replayable strokes.
+      <h4>🖌️ 完善的画笔引擎</h4>
+      支持形状动态、散布、纹理、双重画笔、颜色动态、传递、画笔笔势、湿边、建立和平滑（包括拉绳模式），由笔压、倾斜、旋转和方向驱动。支持画笔预设、从选区定义画笔，以及确定性、可重放的笔触。
     </td>
     <td width="33%" valign="top">
-      <h4>🗃️ Layers, done properly</h4>
-      Groups, clipping masks, pixel and vector masks, fill layers (solid, gradient and pattern), adjustment layers, live smart objects with smart filters and lossless transforms and warps, multi-layer selection with align, distribute and link, alpha channels and Quick Mask, 27 Photoshop blend modes plus six Paint.NET variants, opacity and fill, locks, colour labels, a layer kind filter, merge, flatten, rasterize, Layer via Copy/Cut, Paste Into.
+      <h4>🗃️ 完整的图层系统</h4>
+      支持组、剪贴蒙版、像素及矢量蒙版、填充图层（纯色、渐变、图案）、调整图层、带智能滤镜及无损变换和变形的实时智能对象；支持多图层选择、对齐、分布及链接，Alpha 通道和快速蒙版；提供 27 种 Photoshop 混合模式和 6 种 Paint.NET 变体，不透明度与填充、锁定、颜色标签、图层类型筛选、合并、拼合、栅格化、通过拷贝/剪切建立图层及贴入。
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
-      <h4>🎨 Any colour, any depth</h4>
-      RGB, Grayscale, CMYK and Lab documents at 8, 16 and 32 bits per channel. Bit depth and colour model are runtime data, so every tool works at every depth.
+      <h4>🎨 多种颜色模式与位深</h4>
+      支持 RGB、灰度、CMYK 和 Lab 文档，每通道可用 8、16 或 32 位。位深和颜色模型由运行时数据决定，因此每种工具都可用于各种位深。
       <br><br>
-      Real ICC colour management in pure Rust: embedded profiles, Assign and Convert to Profile with all four rendering intents and black point compensation, soft proofing (⌘Y) and Gamut Warning (⇧⌘Y) on the GPU.
+      纯 Rust 实现完整 ICC 色彩管理：嵌入配置文件、指定和转换配置文件，支持全部四种渲染意图和黑点补偿；GPU 上执行软打样（⌘Y）和色域警告（⇧⌘Y）。
     </td>
     <td width="33%" valign="top">
-      <h4>🗂️ Formats</h4>
-      PSD and PSB, layered TIFF (Photoshop's layer data in the TIFF, read and written in either byte order), <a href="docs/pdn.md">Paint.NET PDN3 (read, with editable layers and all 14 blend modes)</a>, <a href="docs/ora.md">OpenRaster (read and write, with layers, groups and blend modes, for Krita, MyPaint and GIMP)</a>, <a href="docs/xcf.md">GIMP XCF (read, with layers, groups, masks, blend modes, channels and the selection)</a>, <a href="docs/kra.md">Krita .kra (read, with paint layers, groups, blend modes and transparency masks)</a>, SVG (opens as shape layers, places as a vector Smart Object), plus flat PNG, JPEG, TIFF, WebP (lossy and lossless), GIF, BMP, TGA, ICO, QOI, PNM, OpenEXR, Radiance HDR and FITS (astronomy images: 8/16-bit and 32-bit float, gray or RGB, header kept), and the native <code>.pcraft</code> format. Flat formats retain the depths they support: PNG keeps 8/16-bit samples, TIFF keeps 8/16-bit and 32-bit float samples, and OpenEXR keeps half/float samples; JPEG, WebP and the other 8-bit formats reduce higher-depth samples with an export warning. See the <a href="https://github.com/storytold/craft-libs/tree/main/crates/image-codecs#capability-matrix-default-build">codec capability matrix</a> for each format. HEIC photos from iPhone and Mac are read-only (included in official builds; optional <code>--features heif</code> for source builds). AVIF is write-only with the optional <code>avif</code> build feature; AVIF decoding and JPEG XL are unavailable. Affinity documents (<code>.af</code>, <code>.afdesign</code>, <code>.afphoto</code>, <code>.afpub</code>) open natively, read only, with artboards, layers, vectors, text, images and masks; effects, adjustments and other unsupported parts are listed in a warning, and Affinity export is unavailable.
+      <h4>🗂️ 文件格式</h4>
+      支持 PSD、PSB，以及分层 TIFF（TIFF 内嵌 Photoshop 图层数据，支持两种字节序读写）；<a href="docs/pdn.md">Paint.NET PDN3（只读，支持可编辑图层和全部 14 种混合模式）</a>；<a href="docs/ora.md">OpenRaster（可读写，支持图层、组和混合模式，适用于 Krita、MyPaint 和 GIMP）</a>；<a href="docs/xcf.md">GIMP XCF（只读，支持图层、组、蒙版、混合模式、通道和选区）</a>；<a href="docs/kra.md">Krita .kra（只读，支持绘画图层、组、混合模式和透明度蒙版）</a>；SVG（打开为形状图层，置入为矢量智能对象）。还支持平面 PNG、JPEG、TIFF、WebP（有损和无损）、GIF、BMP、TGA、ICO、QOI、PNM、OpenEXR、Radiance HDR 和 FITS（天文图像：8/16 位和 32 位浮点、灰度或 RGB，保留文件头），以及原生 <code>.pcraft</code> 格式。平面格式保留其支持的位深：PNG 保留 8/16 位采样，TIFF 保留 8/16 位和 32 位浮点采样，OpenEXR 保留半精度/浮点采样；JPEG、WebP 等 8 位格式会降低更高位深采样，并在导出时提示。各格式详情见<a href="https://github.com/storytold/craft-libs/tree/main/crates/image-codecs#capability-matrix-default-build">编解码能力矩阵</a>。iPhone 和 Mac 的 HEIC 照片仅支持读取（官方构建包含；源码构建可选 <code>--features heif</code>）。AVIF 仅支持写入，需启用可选的 <code>avif</code> 构建特性；暂不支持 AVIF 解码及 JPEG XL。Affinity 文档（<code>.af</code>、<code>.afdesign</code>、<code>.afphoto</code>、<code>.afpub</code>）可原生只读打开，支持画板、图层、矢量、文字、图像和蒙版；效果、调整等未支持内容会列于警告中，不支持导出 Affinity 格式。
     </td>
     <td width="33%" valign="top">
-      <h4>🪄 The everyday essentials</h4>
-      Auto Tone, Contrast and Color · Equalize · Image and Canvas Size · Crop and Trim · Reveal All · Edit › Fill and Stroke · Copy Merged · Paste in Place · guides, rulers, grid and snapping · Actions record and replay · a command palette (⌘F).
+      <h4>🪄 日常必备功能</h4>
+      自动色调、对比度和颜色 · 色调均化 · 图像大小和画布大小 · 裁剪和裁切 · 显示全部 · 编辑 › 填充和描边 · 合并拷贝 · 原位粘贴 · 参考线、标尺、网格与吸附 · 动作录制和回放 · 命令面板（⌘F）。
     </td>
   </tr>
 </table>
 
 <br>
 
-## PSD without compromise
+<a id="psd-without-compromise"></a>
 
-PhotoCraft's PSD support is a standalone crate written from Adobe's public specification and tested against a corpus of real-world files.
+## 完整的 PSD 支持
 
-- **Faithful round trips:** opening and re-saving a document renders the same for 307 of the 309 files in the psd-tools test set and 169 of 170 in our mixed ag-psd/psd-tools set (`crates/io/tests/it/corpus.rs`; fetch the psd-tools set with `cargo xtask corpus --psd-tools`), and anything we don't model yet (raw blocks, descriptors, extras) is carried over instead of being dropped. A re-saved file is not byte-identical to its source: PhotoCraft rewrites image resources, layer records and the composite. Only the standalone `craft-psd` crate, parsing and writing a file without the document model, reproduces every parseable corpus file byte for byte (`craft-psd/tests/it/corpus.rs`).
-- **Pixels that match:** a composite oracle compares our render with Photoshop's own merged image, covering gradient interpolation (Classic, Perceptual and Linear), layer effects, shape strokes, clipping and fill opacity.
-- **Large documents:** PSB, 16 and 32-bit files, and CMYK and Lab documents open natively.
+PhotoCraft 的 PSD 支持由独立 crate 提供，根据 Adobe 公开规范编写，并使用真实文件样本集进行测试。
 
-## Built for agents
+- **忠实的读写往返：**打开后重新保存文档，psd-tools 测试集的 309 个文件中有 307 个、混合 ag-psd/psd-tools 测试集的 170 个文件中有 169 个保持相同渲染结果（见 `crates/io/tests/it/corpus.rs`；用 `cargo xtask corpus --psd-tools` 获取 psd-tools 样本集）。尚未建模的数据（原始数据块、描述符、附加数据）会保留而非丢弃。重新保存的文件并非逐字节等同于原文件：PhotoCraft 会重写图像资源、图层记录和合成图像。只有独立的 `craft-psd` crate 在不经过文档模型、直接解析与写入文件时，才会逐字节重现所有可解析的样本文件（`craft-psd/tests/it/corpus.rs`）。
+- **像素匹配：**合成结果基准测试会将本项目的渲染与 Photoshop 自身的合并图像比较，覆盖渐变插值（经典、感知、线性）、图层效果、形状描边、剪贴及填充不透明度。
+- **大型文档：**原生打开 PSB、16 位及 32 位文件，以及 CMYK 和 Lab 文档。
 
-Every menu item, tool and dialog runs a command from one registry of 500+ commands. The UI, the CLI, the JSON control channel and the MCP server all call the same commands, so anything you can click, a script or an AI agent can do too.
+<a id="built-for-agents"></a>
+
+## 为智能体而设计
+
+每个菜单项、工具和对话框都会调用统一注册表中的命令，其中包含 500 多条命令。界面、CLI、JSON 控制通道和 MCP 服务器共用这些命令，因此任何能点击完成的操作，脚本或 AI 智能体也能完成。
 
 ```sh
-# Headless: open, edit, save
+# 无界面模式：打开、编辑、保存
 photocraft-cli run wave.psd \
   --cmd filter.sharpen.smartSharpen     --params '{"amount":80}' \
   --cmd layer.newAdjustmentLayer.curves --params '{"points":[[0,0],[64,48],[192,212],[255,255]]}' \
   --out wave-final.png
 
-# Apply one action list to a folder of images
+# 将同一动作列表应用于整个图像文件夹
 photocraft-cli batch --actions grade.json --in ./raw --out ./graded
 
-# Every subcommand explains itself
+# 查看各子命令的帮助
 photocraft-cli batch --help
 
-# Let an agent drive it over MCP (headless, or bridged to the running app)
+# 让智能体通过 MCP 操作（无界面模式，或桥接正在运行的应用）
 photocraft-cli mcp
 ```
 
-The desktop app also offers an authenticated, loopback-only control channel (`photocraft --control`) for inspecting UI state, driving tools with pointer events, and taking offscreen screenshots. Every image in this README was rendered that way. See [`docs/control-protocol.md`](docs/control-protocol.md).
+桌面应用还提供经过身份验证、仅限回环地址的控制通道（`photocraft --control`），用于检查界面状态、以指针事件操作工具及获取离屏截图。本 README 中的每张图像都由此生成。详见 [`docs/control-protocol.md`](docs/control-protocol.md)。
 
-## Under the hood
+<a id="under-the-hood"></a>
 
-- **Engine first:** a pure-data document model and a command engine, with a thin egui UI on top. Layering is enforced at build time across 24 crates.
-- **Two compositors:** a CPU compositor serves as the reference oracle, and a wgpu compositor puts the canvas on the GPU. They are tested against each other.
-- **Copy-on-write tiles:** 256² sparse tiles make undo cheap and huge canvases light, and effect maps are cached per layer state.
-- **Runs in the browser:** the whole engine and UI compile to WebAssembly.
-- **Clean-room:** implemented from public specs and observed behaviour only. No proprietary code, shaders or assets.
-- **Tested:** more than 1,700 tests, including PSD round trips, synthetic generators, compositor oracles and multi-depth checks.
+## 技术架构
 
-## Get started
+- **引擎优先：**纯数据文档模型与命令引擎，上层仅保留轻量 egui 界面。24 个 crate 之间在构建时强制执行分层约束。
+- **双合成器：**CPU 合成器作为参考基准，wgpu 合成器负责 GPU 画布渲染，两者相互对照测试。
+- **写时复制图块：**256² 稀疏图块降低撤销成本，让超大画布也保持轻量；效果映射按图层状态缓存。
+- **浏览器运行：**整个引擎和界面均可编译为 WebAssembly。
+- **净室实现：**仅根据公开规范和观察到的行为实现，不含专有代码、着色器或素材。
+- **充分测试：**超过 1,700 项测试，涵盖 PSD 读写往返、合成样本生成器、合成器参考验证和多位深检查。
+
+<a id="get-started"></a>
+
+## 快速开始
 
 ```sh
 git clone https://github.com/storytold/photocraft
 cd photocraft
-cargo run --release -p photocraft -- image.psd   # the desktop app
-cargo test --workspace                           # the test suite
+cargo run --release -p photocraft -- image.psd   # 桌面应用
+cargo test --workspace                           # 测试套件
 ```
 
-Japanese fonts for the UI and Type tool come from [craft-fonts](https://github.com/storytold/craft-fonts), an optional build input (desktop release builds always include it). Without it PhotoCraft uses your system's CJK fonts:
+界面和文字工具使用的日文字体来自 [craft-fonts](https://github.com/storytold/craft-fonts)，属于可选构建输入（桌面发行构建始终包含）。缺少时，PhotoCraft 使用系统的中日韩字体：
 
 ```sh
 git clone https://github.com/storytold/craft-fonts ../craft-fonts
 CRAFT_FONTS_DIR="$PWD/../craft-fonts" cargo run --release -p photocraft
 ```
 
-New contributors and AI agents: start with [`AGENTS.md`](AGENTS.md), then [`docs/`](docs/).
+新贡献者和 AI 智能体：请先阅读 [`AGENTS.md`](AGENTS.md)，再阅读 [`docs/`](docs/)。
 
-Installers for macOS, Windows, Linux, FreeBSD and the web are attached to each [GitHub release](https://github.com/storytold/photocraft/releases). On Linux you can pick an AppImage, a `.deb`, an `.rpm`, a tarball or a Flatpak bundle. The bundle needs the freedesktop runtime from [Flathub](https://flathub.org/setup), which `flatpak` offers to install along with it:
+每次 [GitHub 发布](https://github.com/storytold/photocraft/releases)均附带 macOS、Windows、Linux、FreeBSD 和 Web 版本。Linux 可选择 AppImage、`.deb`、`.rpm`、tar 压缩包或 Flatpak 包。Flatpak 需要 [Flathub](https://flathub.org/setup) 的 freedesktop 运行时，安装时 `flatpak` 会提示一并安装：
 
 ```sh
-flatpak install --user photocraft-<version>-linux-x86_64.flatpak   # or -linux-aarch64
+flatpak install --user photocraft-<version>-linux-x86_64.flatpak   # 或 -linux-aarch64
 flatpak run ai.storyteller.photocraft
 ```
 
-The Flatpak prints through the host's CUPS socket (File › Print talks IPP to it directly, no `lp` needed); without CUPS, or without a printer, File › Print opens the system print dialog through the print portal. See [printing](docs/printing.md).
+Flatpak 通过宿主机的 CUPS 套接字打印（“文件 › 打印”直接使用 IPP，无需 `lp`）；没有 CUPS 或打印机时，通过打印门户打开系统打印对话框。参见[打印说明](docs/printing.md)。
 
-The AppImage needs no install: the first run registers its launcher icon and menu entry in `~/.local/share` so the dock shows PhotoCraft's icon on Wayland. Set `PHOTOCRAFT_NO_DESKTOP_INTEGRATION=1` to skip that, and see [`docs/releasing.md`](docs/releasing.md) › Linux to undo it.
+AppImage 无需安装：首次运行会在 `~/.local/share` 注册启动器图标和菜单项，让 Wayland 的程序坞显示 PhotoCraft 图标。设置 `PHOTOCRAFT_NO_DESKTOP_INTEGRATION=1` 可跳过此步骤；撤销方法见 [`docs/releasing.md`](docs/releasing.md) 的 Linux 部分。
 
-To use the bundled CLI, run `./photocraft-<version>-linux-x86_64.AppImage --cli --help`, or `--cli mcp` to start the MCP server on stdio. CLI launches skip desktop integration. A symlink named `photocraft-cli` also selects the CLI; see [`docs/development.md`](docs/development.md#headless-cli).
+使用内置 CLI：运行 `./photocraft-<version>-linux-x86_64.AppImage --cli --help`；使用 `--cli mcp` 则通过标准输入输出启动 MCP 服务器。CLI 启动不进行桌面集成。名为 `photocraft-cli` 的符号链接也会启用 CLI，见 [`docs/development.md`](docs/development.md#headless-cli)。
 
-On a Wayland session, files dropped on the window don't open yet: winit 0.30, the windowing library under egui, has no Wayland drag and drop (#386). Use File › Open, or copy the image in your file manager and paste it with Ctrl+V. To drag and drop, start PhotoCraft under XWayland: `WAYLAND_DISPLAY= photocraft`, `WAYLAND_DISPLAY= ./photocraft-<version>-linux-x86_64.AppImage`, or `flatpak run --nosocket=wayland --socket=x11 ai.storyteller.photocraft`. On Wayland, PhotoCraft shows the command for your install in a notice until you dismiss it. Preferences › Performance › Linux display server = X11 does the same on every launch. With a fractional display scale (125%, 150%, 175%) an XWayland window is drawn at a lower resolution and enlarged by the compositor, so the interface is blurred there; native Wayland stays sharp (#1072).
+Wayland 会话中暂不支持将文件拖入窗口打开：egui 底层窗口库 winit 0.30 尚不支持 Wayland 拖放（#386）。请使用“文件 › 打开”，或在文件管理器中复制图像后按 Ctrl+V 粘贴。若需拖放，可通过 XWayland 启动：`WAYLAND_DISPLAY= photocraft`、`WAYLAND_DISPLAY= ./photocraft-<version>-linux-x86_64.AppImage`，或 `flatpak run --nosocket=wayland --socket=x11 ai.storyteller.photocraft`。Wayland 下会显示适用于当前安装方式的命令提示，直至你关闭提示。在“首选项 › 性能 › Linux 显示服务器”中设为 X11，可每次使用相同方式启动。采用 125%、150%、175% 等分数缩放时，XWayland 窗口先以较低分辨率绘制，再由合成器放大，界面会模糊；原生 Wayland 则保持清晰（#1072）。
 
-On macOS, the command-line tool comes as `photocraft-cli-<version>-macos-universal.zip`. The binary is signed with the same Developer ID as the app and notarized by Apple. A bare binary can't carry a stapled notarization ticket the way the DMG does, so the first time you run it macOS checks the notarization online. You can confirm it yourself:
+macOS 命令行工具打包为 `photocraft-cli-<version>-macos-universal.zip`。二进制文件使用与应用相同的 Developer ID 签名，并经过 Apple 公证。独立二进制文件不像 DMG 那样能够附带公证票据，因此首次运行时 macOS 会联网验证。可自行检查：
 
 ```sh
 ditto -x -k photocraft-cli-<version>-macos-universal.zip .
@@ -298,7 +308,7 @@ spctl --assess --type install -vv photocraft-cli-<version>-macos-universal/photo
 # ... accepted, source=Notarized Developer ID
 ```
 
-On FreeBSD 14 (x86_64), the release has a tarball laid out like `/usr/local`. Install the runtime libraries, then unpack it there:
+FreeBSD 14（x86_64）发行包采用类似 `/usr/local` 的目录结构。先安装运行库，再解压到该目录：
 
 ```sh
 pkg install libxkbcommon wayland libX11 libXcursor libXrandr libXi libxcb mesa-libs vulkan-loader gtk3 fontconfig freetype2 alsa-lib
@@ -306,16 +316,16 @@ tar -xzf photocraft-<version>-freebsd-x86_64.tar.gz --strip-components 1 -C /usr
 photocraft
 ```
 
-Maintainers: [`docs/releasing.md`](docs/releasing.md) explains how releases are built, signed and published.
+维护者：发布版本的构建、签名及发布流程见 [`docs/releasing.md`](docs/releasing.md)。
 
 > [!IMPORTANT]
-> **Status:** PhotoCraft is in early alpha, and we want to be straight about where it stands: much of Photoshop's feature surface exists in some form, but **it is not yet a Photoshop replacement for daily professional work**. The biggest gaps are AI/generative features, 15 missing tools, depth in typography and pro workflows, and plug-in compatibility. Every Photoshop menu item is wired to a command ([`docs/parity-checklist.md`](docs/parity-checklist.md)), but that measures wiring, not behaviour. The honest, dimension-by-dimension picture and where we're going next are in the [roadmap](ROADMAP.md) and [parity assessment](docs/target-app-parity.md). Expect rough edges, and please file issues (include your OS, document size, layer count and a screenshot). You can also tell us what broke on [Discord](https://discord.gg/artcraft).
+> **状态：**PhotoCraft 处于早期 Alpha 阶段。我们希望如实说明：虽然已以不同程度实现 Photoshop 的大量功能，**它尚不能替代 Photoshop 承担日常专业工作**。主要缺口包括 AI/生成式功能、15 种尚未实现的工具、文字排版和专业工作流的深度，以及插件兼容性。每个 Photoshop 菜单项都已连接到命令（[`docs/parity-checklist.md`](docs/parity-checklist.md)），但这仅代表命令接入，并不代表行为一致。逐项评估及后续方向详见[路线图](ROADMAP.md)和[功能对等评估](docs/target-app-parity.md)。可能仍有不完善之处，欢迎提交问题，并附上操作系统、文档大小、图层数量及截图。也可在 [Discord](https://discord.gg/artcraft) 反馈故障。
 
-## Community packages
+## 社区软件包
 
-These installers are maintained by community members, not by the PhotoCraft team.
+这些安装包由社区成员维护，而非 PhotoCraft 团队。
 
-On Gentoo, the [::snakebyte overlay](https://github.com/switch87/snakebyte-overlay) packages the Linux release as `media-gfx/photocraft-bin`:
+Gentoo 用户可通过 [::snakebyte overlay](https://github.com/switch87/snakebyte-overlay) 安装 Linux 发行包 `media-gfx/photocraft-bin`：
 
 ```sh
 eselect repository add snakebyte git https://github.com/switch87/snakebyte-overlay.git
@@ -324,145 +334,137 @@ echo 'media-gfx/photocraft-bin ~amd64' >> /etc/portage/package.accept_keywords/p
 emerge --ask media-gfx/photocraft-bin
 ```
 
-## Documentation
+## 文档
 
-Developer, architecture, automation, format, and security documentation is maintained in the [PhotoCraft documentation book](book/).
+开发、架构、自动化、格式及安全文档集中维护于 [PhotoCraft 文档手册](book/)。
 
-To self-host the browser version with Docker, see [Docker web hosting](packaging/web/README.md#docker).
+使用 Docker 自托管浏览器版本，请参阅 [Docker Web 托管](packaging/web/README.md#docker)。
 
-## Security
+## 安全
 
-Security architecture, threat modeling, parser hardening, fuzzing, and vulnerability reporting are covered in the [security documentation](book/src/security/) and the repository [security policy](SECURITY.md).
+安全架构、威胁建模、解析器加固、模糊测试和漏洞报告，见[安全文档](book/src/security/)及仓库的[安全政策](SECURITY.md)。
 
-## Test corpora
+## 测试样本集
 
-PhotoCraft is tested against real files: our own Photoshop-authored oracle PSDs in
-[photocraft-corpus](https://github.com/storytold/photocraft-corpus) plus the psd-tools, ag-psd and PngSuite sets, pinned and
-sha256-verified. Fetch them with `cargo xtask corpus --all` and run the tests with
-`cargo xtask test-corpus` (details in [docs/development.md](docs/development.md#test-corpora)).
+PhotoCraft 使用真实文件测试：既包括 [photocraft-corpus](https://github.com/storytold/photocraft-corpus) 中由 Photoshop 制作的参考 PSD，也包括 psd-tools、ag-psd 和 PngSuite 样本集。所有样本均固定版本并通过 SHA256 校验。使用 `cargo xtask corpus --all` 获取，使用 `cargo xtask test-corpus` 测试，详见 [开发文档](docs/development.md#test-corpora)。
 
-## Downloads
+<a id="downloads"></a>
 
-**New to PhotoCraft?** Download it from the [PhotoCraft page on getartcraft.com](https://getartcraft.com/apps/photocraft). That's the easiest way to install it.
+## 下载
 
-**Want a specific build or format?** On GitHub, the [latest release](https://github.com/storytold/photocraft/releases/latest) has every build listed below, and [all releases](https://github.com/storytold/photocraft/releases) have earlier versions and their notes. `<ver>` in the file names is the version number, and `SHA256SUMS.txt` lists a checksum for every file.
+**初次使用 PhotoCraft？**请前往 [getartcraft.com 上的 PhotoCraft 页面](https://getartcraft.com/apps/photocraft)下载，这是最简单的安装方式。
+
+**需要特定构建或格式？**GitHub 的[最新版本](https://github.com/storytold/photocraft/releases/latest)包含下表所有构建；[全部版本](https://github.com/storytold/photocraft/releases)提供历史版本及发布说明。文件名中的 `<ver>` 表示版本号，`SHA256SUMS.txt` 列出了每个文件的校验和。
 
 ### Windows
 
-| Build | Installer | Portable |
+| 架构 | 安装包 | 便携版 |
 |---|---|---|
-| x64 (64-bit Intel/AMD) | `photocraft-<ver>-windows-x64.msi` | `photocraft-<ver>-windows-x64-portable.zip` |
-| arm64 (Snapdragon and other ARM PCs) | `photocraft-<ver>-windows-arm64.msi` | `photocraft-<ver>-windows-arm64-portable.zip` |
-| x86 (32-bit) | `photocraft-<ver>-windows-x86.msi` | `photocraft-<ver>-windows-x86-portable.zip` |
+| x64（64 位 Intel/AMD） | `photocraft-<ver>-windows-x64.msi` | `photocraft-<ver>-windows-x64-portable.zip` |
+| arm64（骁龙及其他 ARM 电脑） | `photocraft-<ver>-windows-arm64.msi` | `photocraft-<ver>-windows-arm64-portable.zip` |
+| x86（32 位） | `photocraft-<ver>-windows-x86.msi` | `photocraft-<ver>-windows-x86-portable.zip` |
 
-Installers and executables are code-signed.
+安装包和可执行文件均经过代码签名。
 
 ### macOS
 
-| Build | File | Notes |
+| 构建 | 文件 | 说明 |
 |---|---|---|
-| App, universal (Apple silicon + Intel) | `photocraft-<ver>-macos-universal.dmg` | Signed and notarized |
-| Command-line tool, universal | `photocraft-cli-<ver>-macos-universal.zip` | Signed and notarized |
+| 应用，通用版（Apple 芯片 + Intel） | `photocraft-<ver>-macos-universal.dmg` | 已签名并公证 |
+| 命令行工具，通用版 | `photocraft-cli-<ver>-macos-universal.zip` | 已签名并公证 |
 
 ### Linux
 
-| Format | x86_64 | aarch64 (ARM64) | Notes |
+| 格式 | x86_64 | aarch64（ARM64） | 说明 |
 |---|---|---|---|
-| AppImage | `photocraft-<ver>-linux-x86_64.AppImage` | `photocraft-<ver>-linux-aarch64.AppImage` | Runs anywhere; updates itself with [AppImageUpdate](https://github.com/AppImageCommunity/AppImageUpdate) (`.zsync` files) |
-| Flatpak | `photocraft-<ver>-linux-x86_64.flatpak` | `photocraft-<ver>-linux-aarch64.flatpak` | Sandboxed; `flatpak install --user <file>` |
+| AppImage | `photocraft-<ver>-linux-x86_64.AppImage` | `photocraft-<ver>-linux-aarch64.AppImage` | 可直接运行；通过以下工具自动更新： [AppImageUpdate](https://github.com/AppImageCommunity/AppImageUpdate) （`.zsync` 文件） |
+| Flatpak | `photocraft-<ver>-linux-x86_64.flatpak` | `photocraft-<ver>-linux-aarch64.flatpak` | 沙盒运行； `flatpak install --user <file>` |
 | Debian/Ubuntu | `photocraft-<ver>-linux-x86_64.deb` | `photocraft-<ver>-linux-aarch64.deb` | |
 | Fedora/RHEL/openSUSE | `photocraft-<ver>-linux-x86_64.rpm` | `photocraft-<ver>-linux-aarch64.rpm` | |
-| Tarball | `photocraft-<ver>-linux-x86_64.tar.gz` | `photocraft-<ver>-linux-aarch64.tar.gz` | Unpack anywhere |
+| tar 压缩包 | `photocraft-<ver>-linux-x86_64.tar.gz` | `photocraft-<ver>-linux-aarch64.tar.gz` | 可解压至任意位置 |
 
-RISC-V (riscv64): `photocraft-<ver>-linux-riscv64.tar.gz` only, built against Ubuntu 24.04 (needs glibc 2.39+).
+RISC-V（riscv64）：仅提供 `photocraft-<ver>-linux-riscv64.tar.gz`，基于 Ubuntu 24.04 构建，需要 glibc 2.39 或更新版本。
 
 ### FreeBSD
 
-| Build | File |
+| 架构 | 文件 |
 |---|---|
 | x86_64 | `photocraft-<ver>-freebsd-x86_64.tar.gz` |
 
 ### Web (WebAssembly)
 
-| Build | File | Notes |
+| 构建 | 文件 | 说明 |
 |---|---|---|
-| Static site | `photocraft-web-<ver>.zip` | Runs in a modern browser; host it on any static server |
+| 静态站点 | `photocraft-web-<ver>.zip` | 在现代浏览器运行，可托管于任意静态服务器 |
 
-## The Crafting Apps
+<a id="the-crafting-apps"></a>
 
-PhotoCraft is one of the **Crafting Apps**: free, open-source creative tools from the
-[ArtCraft](https://getartcraft.com/) team, each written from scratch in Rust and each able to
-stand on its own.
+## Crafting Apps 创作工具系列
 
-| | App | What it's for | Code | Learn more |
+PhotoCraft 是 **Crafting Apps** 的一员。这是 [ArtCraft](https://getartcraft.com/) 团队打造的免费开源创作工具系列，每款都以 Rust 从零编写，也都能独立使用。
+
+| | 应用 | 用途 | 源码 | 了解更多 |
 |:-:|---|---|---|---|
-| <img src="https://raw.githubusercontent.com/storytold/photocraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.photocraft.png" alt="" width="32" height="32"> | **PhotoCraft** | Image editing: layers, masks, type and real PSD files | [GitHub](https://github.com/storytold/photocraft) | [Website](https://getartcraft.com/apps/photocraft) |
-| <img src="https://raw.githubusercontent.com/storytold/vectorcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.vectorcraft.png" alt="" width="32" height="32"> | **VectorCraft** | Vector illustration | [GitHub](https://github.com/storytold/vectorcraft) | [Website](https://getartcraft.com/apps/vectorcraft) |
-| <img src="https://raw.githubusercontent.com/storytold/filmcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.filmcraft.png" alt="" width="32" height="32"> | **FilmCraft** | Video editing, color and sound | [GitHub](https://github.com/storytold/filmcraft) | [Website](https://getartcraft.com/apps/filmcraft) |
-| <img src="https://raw.githubusercontent.com/storytold/lightcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.lightcraft.png" alt="" width="32" height="32"> | **LightCraft** | Photo library and raw development | [GitHub](https://github.com/storytold/lightcraft) | [Website](https://getartcraft.com/apps/lightcraft) |
-| <img src="https://raw.githubusercontent.com/storytold/pdfcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.pdfcraft.png" alt="" width="32" height="32"> | **PdfCraft** | Reading, organizing and protecting PDFs | [GitHub](https://github.com/storytold/pdfcraft) | [Website](https://getartcraft.com/apps/pdfcraft) |
-| <img src="https://raw.githubusercontent.com/storytold/effectcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.effectcraft.png" alt="" width="32" height="32"> | **EffectCraft** | Motion graphics and visual effects | [GitHub](https://github.com/storytold/effectcraft) | [Website](https://getartcraft.com/apps/effectcraft) |
-| <img src="https://raw.githubusercontent.com/storytold/designcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.designcraft.png" alt="" width="32" height="32"> | **DesignCraft** | Page layout and publishing | [GitHub](https://github.com/storytold/designcraft) | [Website](https://getartcraft.com/apps/designcraft) |
-| <img src="https://raw.githubusercontent.com/storytold/figcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.figcraft.png" alt="" width="32" height="32"> | **FigCraft** | Interface design and prototyping | [GitHub](https://github.com/storytold/figcraft) | [Website](https://getartcraft.com/apps/figcraft) |
-| <img src="https://raw.githubusercontent.com/storytold/wordcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.wordcraft.png" alt="" width="32" height="32"> | **WordCraft** | Word processing and documents | [GitHub](https://github.com/storytold/wordcraft) | [Website](https://getartcraft.com/apps/wordcraft) |
-| <img src="https://raw.githubusercontent.com/storytold/soundcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.soundcraft.png" alt="" width="32" height="32"> | **SoundCraft** | Audio recording and editing | [GitHub](https://github.com/storytold/soundcraft) | [Website](https://getartcraft.com/apps/soundcraft) |
-| <img src="https://raw.githubusercontent.com/storytold/deckcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.deckcraft.png" alt="" width="32" height="32"> | **DeckCraft** | Presentations and slide decks | [GitHub](https://github.com/storytold/deckcraft) | [Website](https://getartcraft.com/apps/deckcraft) |
-| <img src="https://raw.githubusercontent.com/storytold/cadcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.cadcraft.png" alt="" width="32" height="32"> | **CADCraft** | Computer-aided design | [GitHub](https://github.com/storytold/cadcraft) | [Website](https://getartcraft.com/apps/cadcraft) |
-| <img src="https://raw.githubusercontent.com/storytold/gridcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.gridcraft.png" alt="" width="32" height="32"> | **GridCraft** | Spreadsheets and data | [GitHub](https://github.com/storytold/gridcraft) | [Website](https://getartcraft.com/apps/gridcraft) |
-| <img src="https://raw.githubusercontent.com/storytold/texturecraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.texturecraft.png" alt="" width="32" height="32"> | **TextureCraft** | 3D texture painting | [GitHub](https://github.com/storytold/texturecraft) | [Website](https://getartcraft.com/apps/texturecraft) |
-| <img src="https://raw.githubusercontent.com/storytold/craft-anything/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.craft-anything.png" alt="" width="32" height="32"> | **Craft Anything** | See how any software works, then build your own | [GitHub](https://github.com/storytold/craft-anything) | [Website](https://getartcraft.com/apps/craft-anything) |
-| <img src="https://raw.githubusercontent.com/tangency-labs/solidcraft/main/assets/icons/app/linux/exports/hicolor/64x64/apps/io.tangencylabs.solidcraft.png" alt="" width="32" height="32"> | **SolidCraft** | Parametric 3D CAD by Tangency Labs (community app) | [GitHub](https://github.com/tangency-labs/solidcraft) | |
+| <img src="https://raw.githubusercontent.com/storytold/photocraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.photocraft.png" alt="" width="32" height="32"> | **PhotoCraft** | 图像编辑：图层、蒙版、文字及真正的 PSD 文件 | [GitHub](https://github.com/storytold/photocraft) | [官网](https://getartcraft.com/apps/photocraft) |
+| <img src="https://raw.githubusercontent.com/storytold/vectorcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.vectorcraft.png" alt="" width="32" height="32"> | **VectorCraft** | 矢量插画 | [GitHub](https://github.com/storytold/vectorcraft) | [官网](https://getartcraft.com/apps/vectorcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/filmcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.filmcraft.png" alt="" width="32" height="32"> | **FilmCraft** | 视频剪辑、调色与声音处理 | [GitHub](https://github.com/storytold/filmcraft) | [官网](https://getartcraft.com/apps/filmcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/lightcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.lightcraft.png" alt="" width="32" height="32"> | **LightCraft** | 照片管理与 RAW 显影 | [GitHub](https://github.com/storytold/lightcraft) | [官网](https://getartcraft.com/apps/lightcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/pdfcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.pdfcraft.png" alt="" width="32" height="32"> | **PdfCraft** | PDF 阅读、整理与保护 | [GitHub](https://github.com/storytold/pdfcraft) | [官网](https://getartcraft.com/apps/pdfcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/effectcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.effectcraft.png" alt="" width="32" height="32"> | **EffectCraft** | 动态图形与视觉特效 | [GitHub](https://github.com/storytold/effectcraft) | [官网](https://getartcraft.com/apps/effectcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/designcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.designcraft.png" alt="" width="32" height="32"> | **DesignCraft** | 页面排版与出版 | [GitHub](https://github.com/storytold/designcraft) | [官网](https://getartcraft.com/apps/designcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/figcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.figcraft.png" alt="" width="32" height="32"> | **FigCraft** | 界面设计与原型制作 | [GitHub](https://github.com/storytold/figcraft) | [官网](https://getartcraft.com/apps/figcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/wordcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.wordcraft.png" alt="" width="32" height="32"> | **WordCraft** | 文字处理与文档 | [GitHub](https://github.com/storytold/wordcraft) | [官网](https://getartcraft.com/apps/wordcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/soundcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.soundcraft.png" alt="" width="32" height="32"> | **SoundCraft** | 音频录制与编辑 | [GitHub](https://github.com/storytold/soundcraft) | [官网](https://getartcraft.com/apps/soundcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/deckcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.deckcraft.png" alt="" width="32" height="32"> | **DeckCraft** | 演示文稿与幻灯片 | [GitHub](https://github.com/storytold/deckcraft) | [官网](https://getartcraft.com/apps/deckcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/cadcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.cadcraft.png" alt="" width="32" height="32"> | **CADCraft** | 计算机辅助设计 | [GitHub](https://github.com/storytold/cadcraft) | [官网](https://getartcraft.com/apps/cadcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/gridcraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.gridcraft.png" alt="" width="32" height="32"> | **GridCraft** | 电子表格与数据 | [GitHub](https://github.com/storytold/gridcraft) | [官网](https://getartcraft.com/apps/gridcraft) |
+| <img src="https://raw.githubusercontent.com/storytold/texturecraft/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.texturecraft.png" alt="" width="32" height="32"> | **TextureCraft** | 3D 纹理绘制 | [GitHub](https://github.com/storytold/texturecraft) | [官网](https://getartcraft.com/apps/texturecraft) |
+| <img src="https://raw.githubusercontent.com/storytold/craft-anything/main/assets/app-icon/hicolor/64x64/apps/ai.storyteller.craft-anything.png" alt="" width="32" height="32"> | **Craft Anything** | 了解软件如何运作，再打造自己的软件 | [GitHub](https://github.com/storytold/craft-anything) | [官网](https://getartcraft.com/apps/craft-anything) |
+| <img src="https://raw.githubusercontent.com/tangency-labs/solidcraft/main/assets/icons/app/linux/exports/hicolor/64x64/apps/io.tangencylabs.solidcraft.png" alt="" width="32" height="32"> | **SolidCraft** | Tangency Labs 开发的参数化 3D CAD（社区应用） | [GitHub](https://github.com/tangency-labs/solidcraft) | |
 
-And [**ArtCraft**](https://getartcraft.com/) itself, our AI image and video studio for artists who want real control.
+还有 [**ArtCraft**](https://getartcraft.com/) 本身：为希望真正掌控创作过程的艺术家提供的 AI 图像和视频工作室。
 
-The Crafting Apps share the same conventions: clean-room and pure Rust, native on macOS, Windows and Linux, in the browser via WebAssembly, and fully drivable by agents.
+Crafting Apps 采用共同规范：净室实现、纯 Rust 编写，原生运行于 macOS、Windows 和 Linux，通过 WebAssembly 在浏览器运行，并可由智能体完整控制。
 
 <br>
 
 <p align="center">
-  <a href="https://discord.gg/artcraft"><img alt="Join the ArtCraft community on Discord" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
+  <a href="https://discord.gg/artcraft"><img alt="加入 Discord 上的 ArtCraft 社区" src="https://img.shields.io/badge/Join%20us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40"></a>
 </p>
 
-<h3 align="center">Come make things with us</h3>
+<h3 align="center">和我们一起创作</h3>
 
 <p align="center">
-  Our Discord is where artists of every kind hang out: people who paint, shoot, draw, cut film,
-  set type, and people still figuring out what they like to make. Share what you're working on,
-  ask for help, tell us what's broken, or tell us what you wish these tools could do.
-  Whatever your medium and however long you've been at it, you're welcome here.
+  我们的 Discord 汇聚了绘画、摄影、插画、剪辑、排版等各类创作者，也欢迎仍在探索兴趣的人。分享你的作品、寻求帮助、报告问题，或告诉我们你希望这些工具具备哪些能力。无论使用什么媒介，无论经验多少，这里都欢迎你。
 </p>
 
 <p align="center">
   <a href="https://discord.gg/artcraft"><b>discord.gg/artcraft</b></a> ·
   <a href="https://getartcraft.com/">getartcraft.com</a> ·
-  <a href="https://getartcraft.com/apps">The Crafting Apps</a> ·
+  <a href="https://getartcraft.com/apps">Crafting Apps 创作工具系列</a> ·
   <a href="https://getartcraft.com/apps/photocraft">PhotoCraft</a>
 </p>
 
 ---
 
-## License and credits
+## 许可证与致谢
 
-PhotoCraft is dual-licensed under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE), at your option.
-Copyright (c) 2026 ArtCraft Team and the PhotoCraft contributors. Required notices are in [NOTICE](NOTICE).
+PhotoCraft 采用双许可证，你可以选择 [MIT](LICENSE-MIT) 或 [Apache-2.0](LICENSE-APACHE)。
+版权所有 (c) 2026 ArtCraft 团队及 PhotoCraft 贡献者。必须保留的声明见 [NOTICE](NOTICE)。
 
-Bundled fonts, icons, images and other assets keep their own open licenses; each one is listed
-with its author, source and license in [ATTRIBUTION.md](ATTRIBUTION.md).
+随附字体、图标、图像及其他素材保留各自的开放许可证；作者、来源和许可证逐项列于 [ATTRIBUTION.md](ATTRIBUTION.md)。
 
-Every artwork shown is in the public domain (Wikimedia Commons, NASA, U.S. National Archives); sources are listed in [`docs/images/SOURCES.md`](docs/images/SOURCES.md).
+所有展示的艺术作品均属于公有领域（来源包括 Wikimedia Commons、NASA 和美国国家档案馆）；来源清单见 [`docs/images/SOURCES.md`](docs/images/SOURCES.md)。
 
-The ArtCraft name, wordmark and logos in [`docs/brand/`](docs/brand/) are trademarks of the
-ArtCraft Team and are not covered by this license. They may be used only unmodified, and only as
-part of this repository and PhotoCraft, under [`docs/brand/LICENSE-brand.txt`](docs/brand/LICENSE-brand.txt).
-Forks and modified versions must remove them.
+[`docs/brand/`](docs/brand/) 中的 ArtCraft 名称、文字标识和徽标是 ArtCraft 团队的商标，不在上述许可证授权范围内。根据 [`docs/brand/LICENSE-brand.txt`](docs/brand/LICENSE-brand.txt)，仅允许在本仓库和 PhotoCraft 中原样使用，不得修改。分叉项目和修改版必须移除这些标识。
 
-<sub>Adobe, Photoshop, Illustrator, Premiere Pro, Lightroom, Acrobat, After Effects and InDesign are trademarks or registered trademarks of Adobe Inc. in the United States and/or other countries. PhotoCraft is an independent, open-source project and is not affiliated with, sponsored by or endorsed by Adobe Inc.; these names are used only to describe the workflows it is compatible with.</sub>
+<sub>Adobe、Photoshop、Illustrator、Premiere Pro、Lightroom、Acrobat、After Effects 和 InDesign 是 Adobe Inc. 在美国和/或其他国家的商标或注册商标。PhotoCraft 是独立开源项目，与 Adobe Inc. 无关联，也未获其赞助或认可；这些名称仅用于说明兼容的工作流。</sub>
 
 <p align="center">
   <a href="https://getartcraft.com/"><img alt="ArtCraft" src="docs/brand/artcraft-mark.svg" width="28"></a><br>
-  <sub>Made by the <a href="https://getartcraft.com/">ArtCraft</a> team and community.</sub>
+  <sub>由 <a href="https://getartcraft.com/">ArtCraft</a> 团队与社区共同打造。</sub>
 </p>
 
-## Star history
+## Star 历史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=storytold/photocraft&type=Date&legend=top-left)](https://www.star-history.com/?repos=storytold%2Fphotocraft&type=date&legend=top-left)
+[![Star 历史图表](https://api.star-history.com/svg?repos=storytold/photocraft&type=Date&legend=top-left)](https://www.star-history.com/?repos=storytold%2Fphotocraft&type=date&legend=top-left)
